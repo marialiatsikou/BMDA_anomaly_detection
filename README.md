@@ -6,7 +6,7 @@ Folder contents:
 * **data**: data files neccessary for running the code (see below);
 * **models**: the files of models saved after running the code;
 * **images**: this is where the generrated charts and maps are placed;
-* **errors**: 
+* **errors**: the errors of the models are stored here;
 * **predictions**:  the predictions of the models are saved here.
 
 First download the file from [here](https://www.dropbox.com/s/jis8cgnb7vglvvc/data.zip?dl=0) and extract its contents in the folder "data" (>500MB). It contains the following:
