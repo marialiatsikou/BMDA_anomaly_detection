@@ -15,5 +15,5 @@ First download the file from [here](https://www.dropbox.com/s/jis8cgnb7vglvvc/d
 * XYZ_noise_std_lstm.p: pickles with the noise added in the XYZ (train/dev/test) set.
 
 The file "trajectory_outlier_detect_main.py" contains the main function for running the code. This function has the "train_model" variable, which should be defined by the user. It determines if the models will be trained: 
-If True the models are trained and saved to folder "models" 
-If False the models are loaded from folder "models" in order to make predictions.
+* If True the models are trained and saved to folder "models" 
+* If False the models are loaded from folder "models" in order to make predictions.
