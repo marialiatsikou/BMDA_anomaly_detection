@@ -441,8 +441,8 @@ def generate_charts(folders):
     cnt = -1
     for modelname in ['vae', 'seq']:
         cnt = -1
-        names = ['DSTRT_c', 'DSTRT_p', 'CYCLE_c', 'CYCLE_b', 'SPEED_e', 'SPEED_h']
-        for dataset in ['mixed_full', 'mixed_half', 'cycle_half', 'cycle_back_forth']:#, 'traffic_fast', 'traffic_moderate']:
+        names = ['DSTRT_c', 'DSTRT_p', 'CYCLE_c', 'CYCLE_b']
+        for dataset in ['mixed_full', 'mixed_half', 'cycle_half', 'cycle_back_forth']:
             cnt+=1
             ts_mse = get_fscore_over_k(folders, modelname+'_mse', dataset)
             ts_hav = get_fscore_over_k(modelname, dataset)
