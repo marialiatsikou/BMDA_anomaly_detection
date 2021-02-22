@@ -221,9 +221,9 @@ def train_seq2seq(folders, wei, train_model, n_units):
     preds = np.array(preds)
     
     if wei==True:
-        pickle.dump(preds, open(folders['preds_folder']+'pred_traj_seq.p', 'wb'))
+        pickle.dump(preds, open(folders['preds_folder']+'pred_traj_std_seq.p', 'wb'))
     else:
-        pickle.dump(preds, open(folders['preds_folder']+'pred_traj_seq_mse.p', 'wb'))
+        pickle.dump(preds, open(folders['preds_folder']+'pred_traj_std_seq_mse.p', 'wb'))
     
         
 
